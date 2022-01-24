@@ -1,0 +1,35 @@
+@import url(./colors.css);
+@import url(./button.css);
+
+body{
+background-color: #e5e5e5;
+}
+p > label {
+    display: block;
+    
+  }
+
+
+  .name{
+      font-size: 20px;
+  }
+  .forms{
+    height: 60px;
+    width: 680px;
+    border-radius: 5px;
+    background-color:  #F5802133;
+    border-color:  #F58021;
+    font-size: 18px;
+
+
+  }
+  .forms:hover{
+      background-color: var(--white);
+      border-color:  #80CFC8;
+      
+  }
+  .message{
+      font-size: 20px;
+      color: #F58021;
+
+  }
